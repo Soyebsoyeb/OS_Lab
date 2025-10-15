@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-	cout << "-------- Displaying Existing Environment Variables --------" << endl;
+	cout << " Displaying Existing Environment Variables " << endl;
 
 // List of standard environment variables to display
 	const char* vars[] = {"USER" , "HOME" , "HOST" , "ARCH" , "DISPLAY","PRINTER","PATH"};
@@ -17,7 +17,7 @@ int main() {
 	else cout << var << " = " << "is not sent" << endl;
 	}
 
-	cout << endl << "-------Setting New Environment Variables -------"<<endl;
+	cout << endl << " Setting New Environment Variables "<<endl;
 
 	// Using setenv() to create neww variables
 	
